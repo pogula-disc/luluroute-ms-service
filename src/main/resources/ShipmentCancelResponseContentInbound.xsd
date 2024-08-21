@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="shipment_cancel_content">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="shipment">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:byte" name="status"/>
+                            <xs:element type="xs:string" name="message"/>
+                            <xs:element type="xs:string" name="ShipmentGuid"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,417 @@
+{
+	"RequestHeader": {
+		"RequestType": null,
+		"RequestPriority": null,
+		"RequestId": null,
+		"RequestDate": 0,
+		"ExpireDate": 0,
+		"Extended": [
+			{
+				"META": "",
+				"key": "",
+				"value": ""
+			}
+		],
+		"Response": {
+			"ResponseCode": null,
+			"ResponseDate": 0,
+			"ResponseMessage": null,
+			"Extended": [
+				{
+					"META": "",
+					"key": "",
+					"value": ""
+				}
+			]
+		}
+	},
+	"MessageStatus": {
+		"Status": 0,
+		"StatusDate": 0
+	},
+	"MessageHeader": {
+		"MessageCorrelationId": null,
+		"Sequence": 0,
+		"TotalSequence": 0,
+		"MessageDate": 0,
+		"Region": null,
+		"MessageSources": [
+			{
+				"RoleType": "",
+				"EntityCode": "",
+				"Extended": [
+					{
+						"META": "",
+						"key": "",
+						"value": ""
+					}
+				]
+			}
+		],
+		"Extended": [
+			{
+				"META": "",
+				"key": "",
+				"value": ""
+			}
+		]
+	},
+	"MessageBody": {
+		"Shipments": [
+			{
+				"ShipmentHeader": {
+					"ShipmentCorrelationId": null,
+					"Origin": {
+						"EntityCode": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						],
+						"Secondaries": [
+							{
+								"RoleType": "",
+								"EntityCode": "",
+								"Extended": [
+									{
+										"META": "",
+										"key": "",
+										"value": ""
+									}
+								]
+							}
+						],
+						"AddressFrom": {
+							"HashKey": null,
+							"Contact": null,
+							"ContactPhone": null,
+							"Description1": null,
+							"Description2": null,
+							"Description3": null,
+							"Description4": null,
+							"Description5": null,
+							"City": null,
+							"State": null,
+							"Country": null,
+							"ZipCode": null,
+							"Validated": false,
+							"ValidatedEntity": null,
+							"ValidatedDate": 0
+						}
+					},
+					"Destination": {
+						"EntityCode": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						],
+						"AddressTo": {
+							"HashKey": null,
+							"Contact": null,
+							"ContactPhone": null,
+							"Description1": null,
+							"Description2": null,
+							"Description3": null,
+							"Description4": null,
+							"Description5": null,
+							"City": null,
+							"State": null,
+							"Country": null,
+							"ZipCode": null,
+							"Validated": false,
+							"ValidatedEntity": null,
+							"ValidatedDate": 0
+						},
+						"AliasAddress": {
+							"HashKey": null,
+							"Contact": null,
+							"ContactPhone": null,
+							"Description1": null,
+							"Description2": null,
+							"Description3": null,
+							"Description4": null,
+							"Description5": null,
+							"City": null,
+							"State": null,
+							"Country": null,
+							"ZipCode": null,
+							"Validated": false,
+							"ValidatedEntity": null,
+							"ValidatedDate": 0
+						}
+					},
+					"ReturnLocation": {
+						"EntityCode": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						],
+						"ReturnAddress": {
+							"HashKey": null,
+							"Contact": null,
+							"ContactPhone": null,
+							"Description1": null,
+							"Description2": null,
+							"Description3": null,
+							"Description4": null,
+							"Description5": null,
+							"City": null,
+							"State": null,
+							"Country": null,
+							"ZipCode": null,
+							"Validated": false,
+							"ValidatedEntity": null,
+							"ValidatedDate": 0
+						}
+					},
+					"Carrier": {
+						"CarrierName": null,
+						"CarrierCode": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						]
+					}
+				},
+				"TransitDetails": {
+					"BOL": null,
+					"MasterBOL": null,
+					"ShipmentId": null,
+					"MasterTrackingNo": null,
+					"TrackingNo": null,
+					"AltTrackingNo": null,
+					"TransitMode": null,
+					"ShippedShipmentNo": null,
+					"ShippedTrailerNo": null,
+					"ShippedPalletNo": null,
+					"RouteRuleCode": null,
+					"RouteOverrideCode": null,
+					"SortCode": null,
+					"AirportCode": null,
+					"HubCode": null,
+					"MPSWMSGroupNo": null,
+					"IsResidential": false,
+					"IsAuthorityLeave": false,
+					"IsSignatureRequired": false,
+					"IsSaturdayDelivery": false,
+					"FrontBackOfHouse": null,
+					"Region": null,
+					"Extended": [
+						{
+							"META": "",
+							"key": "",
+							"value": ""
+						}
+					],
+					"DateDetails": {
+						"PlannedShipDate": 0,
+						"ShippedDate": 0,
+						"EstimatedDeliveryDate": 0,
+						"PlannedDeliveryDate": 0,
+						"DeliveredDate": 0,
+						"InStoreDate": 0,
+						"TransitDays": 0,
+						"CutOffTimeApplied": false,
+						"CutOffTimeHH": 0,
+						"CutOffTimeMM": 0
+					},
+					"LabelDetails": {
+						"Label": null,
+						"Format": null,
+						"Size": {
+							"Width": 0,
+							"Height": 0,
+							"UOM": null
+						}
+					}
+				},
+				"OrderDetails": {
+					"OrderId": null,
+					"OrderType": null,
+					"OrderCreatedDate": 0,
+					"ShipmentContents": null,
+					"ProductDepartment": null,
+					"RequestedCarrierCode": null,
+					"RequestedShipMode": null,
+					"ShipmentFeeApplied": false,
+					"IsHazMat": false,
+					"IsINTL": false,
+					"IsRural": false,
+					"IsPOBox": false,
+					"IsMilitary": false,
+					"IsXborderEligible": false,
+					"IsEmployee": false,
+					"DiscountedOrder": false,
+					"IsLoyalty": false,
+					"ServiceSelectedByGEC": false,
+					"WMSStatus": null,
+					"ShipVia": null,
+					"Channel": null,
+					"SubChannel": null,
+					"Path": null,
+					"LaneName": null,
+					"TCLPNID": null,
+					"LPNTCOrderId": null,
+					"ReferenceLPN": null,
+					"Integration": null,
+					"OrderOrigin": null,
+					"Extended": [
+						{
+							"META": "",
+							"key": "",
+							"value": ""
+						}
+					],
+					"DeclaredValueDetails": {
+						"Value": 0,
+						"Currency": null
+					},
+					"BillingDetails": {
+						"EntityCode": null,
+						"BillTo": null,
+						"BillToAccount": null,
+						"ParentAccount": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						],
+						"BillToAddress": {
+							"HashKey": null,
+							"Contact": null,
+							"ContactPhone": null,
+							"Description1": null,
+							"Description2": null,
+							"Description3": null,
+							"Description4": null,
+							"Description5": null,
+							"City": null,
+							"State": null,
+							"Country": null,
+							"ZipCode": null,
+							"Validated": false,
+							"ValidatedEntity": null,
+							"ValidatedDate": 0
+						}
+					}
+				},
+				"ShipmentStatus": {
+					"Status": 0,
+					"StatusDate": 0
+				},
+				"ShipmentPieces": [
+					{
+						"Sequence": 0,
+						"TotalSequence": 0,
+						"DimensionDetails": {
+							"Length": 0,
+							"Width": 0,
+							"Height": 0,
+							"UOM": null
+						},
+						"WeightDetails": {
+							"Value": 0,
+							"UOM": null
+						},
+						"CartonsDetails": [
+							{
+								"ItemCode": null,
+								"ItemExtendedCode": null,
+								"ItemSequence": 0,
+								"ItemSequenceTotal": 0,
+								"Description": null,
+								"Quantity": 0,
+								"Extended": [
+									{
+										"META": "",
+										"key": "",
+										"value": ""
+									}
+								],
+								"WeightDetails": {
+									"Value": 0,
+									"UOM": null
+								},
+								"ItemValue": {
+									"Value": 0,
+									"Currency": null
+								},
+								"DimensionDetails": {
+									"Length": 0,
+									"Width": 0,
+									"Height": 0,
+									"UOM": null
+								},
+								"TradeDetails": {
+									"ItemsContents": null,
+									"ManufacturerID": null,
+									"CountryOfOriginCode": null,
+									"HsTariffNumber": null,
+									"Extended": [
+										{
+											"META": "",
+											"key": "",
+											"value": ""
+										}
+									],
+									"DeclaredValueDetails": {
+										"Value": 0,
+										"Currency": null
+									}
+								}
+							}
+						]
+					}
+				],
+				"ShipmentResponse": {
+					"ResponseCode": null,
+					"ResponseDate": 0,
+					"ResponseMessage": null,
+					"Extended": [
+						{
+							"META": "",
+							"key": "",
+							"value": ""
+						}
+					]
+				},
+				"RateShopResponses": [
+					{
+						"RateShopType": null,
+						"RateShopCode": null,
+						"Valuation": null,
+						"RateShopDate": 0,
+						"ValidEndDate": 0,
+						"CarrierCode": null,
+						"ModeCode": null,
+						"Cost": 0,
+						"AdditionalCost": 0,
+						"DeliveryDate": 0,
+						"TransitDays": 0,
+						"ResponseMessage": null,
+						"Extended": [
+							{
+								"META": "",
+								"key": "",
+								"value": ""
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+}
